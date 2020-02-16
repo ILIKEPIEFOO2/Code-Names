@@ -112,6 +112,7 @@ function getBoxes(){
 }
 function swapColor(id){
 	GRID_ELEMENTS[id].style.color="white";
+	console.log("test");
 }
 setupGrid();
 generateColors();
