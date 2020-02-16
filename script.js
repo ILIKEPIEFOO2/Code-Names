@@ -93,7 +93,8 @@ function setupGrid(){
 			let id=x+','+y;
 			elem.innerHTML=id;
 			elem.style.cursor="pointer";
-			elem.onclick="swapColor("+x+"','"+y+")";
+			elem.onclick="swapColor("+x+","+y+")";
+			elem.ontouchend="swapColor("+x+","+y+")";
 			elem.id=id;
 			GRID.appendChild(elem);
 			GRID_ELEMENTS[id]=elem;
