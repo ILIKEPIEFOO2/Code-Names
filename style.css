@@ -1,0 +1,8 @@
+.box {
+	border: 1px solid green;
+}
+.grid {
+	display: grid;
+	min-height: 570px;
+	text-align: center;
+}
